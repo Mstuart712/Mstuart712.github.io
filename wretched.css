@@ -2,3 +2,38 @@ img {
   width: 250px;
   height: auto;
 }
+
+.axis path {
+	fill: none;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.axis text {
+    font-size: 14px;
+}
+
+.Marty {
+  stroke: orange;
+}
+.Amy {
+  stroke: blue;
+}
+.Jay {
+  stroke: green;
+}
+.Kralyn {
+  stroke: red;
+}
+.Dad {
+  stroke: black;
+}
+.Mom {
+  stroke: yellow;
+}
+.Sondra {
+  stroke: purple;
+}
+.Rosalena {
+  stroke: pink;
+}
