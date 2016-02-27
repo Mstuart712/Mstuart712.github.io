@@ -18,7 +18,7 @@ var vis = d3.select("#college-picks"),
   },
   //Set my x and y axis range and domain Range defines area avaible to render the graph and domain defines the maximum and minimum values
   createX = d3.scale.linear().range([MARGINS.left, WIDTH - MARGINS.right]).domain([1,3]),
-  createY = d3.scale.linear().range([HEIGHT - MARGINS.top, MARGINS.bottom]).domain([0,50]),
+  createY = d3.scale.linear().range([HEIGHT - MARGINS.top, MARGINS.bottom]).domain([0,30]),
 
   //use the d3 method "axis" to create the x and y axis 
   xAxis = d3.svg.axis()
