@@ -9,7 +9,7 @@ $.getJSON("https://gist.githubusercontent.com/Mstuart712/65aebbc25921c4a1643c/ra
 //use d3 method "select" to get select my element
 var vis = d3.select("#college-picks"),
   WIDTH = 500,
-  HEIGHT = 410,
+  HEIGHT = 300,
   MARGINS = {
     top: 20,
     right: 20,
