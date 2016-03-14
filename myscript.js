@@ -1,6 +1,6 @@
 
 //Using Jquery to load my JSON data into an array of objects
-$.getJSON("https://gist.githubusercontent.com/Mstuart712/65aebbc25921c4a1643c/raw/93ba092626fdd895270968ead25fe9b7a7c2c53e/wretched-data.json", function(json) { 
+$.getJSON("https://gist.githubusercontent.com/Mstuart712/65aebbc25921c4a1643c/raw/679d279982d61b3321ea9815a03f8b9999313939/wretched-data.json", function(json) { 
     var myData = json;
     //calls function on line 61
     myData.forEach(getData);
