@@ -129,7 +129,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: em(15);
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
@@ -172,7 +172,16 @@ pre {
     }
 }
 
+/**
+ * Functions
+ */
 
+//Pixels to em
+$browser-context: 16;
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
 
 /**
  * Clearfix
