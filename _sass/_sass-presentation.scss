@@ -85,7 +85,7 @@ $cursive-font: cursive, serif;
   text-transform: none;
   text-transform: capitalize;
 
-  color: #fff;
+
   border: 0 none;
   border-radius: 4px;
 
@@ -126,5 +126,5 @@ $alge: #79a8a9;
 $flower: #353866;
 
 .button-test {
-  @include button-testing(#806e28, #FF00EF);
+  @include button-testing(#806E28, #FF00EF);
 }
