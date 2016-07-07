@@ -126,5 +126,5 @@ $alge: #79a8a9;
 $flower: #353866;
 
 .button-test {
-  @include button-testing($snow, $grass);
+  @include button-testing(#806e28, #FF00EF);
 }
