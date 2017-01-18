@@ -6,6 +6,8 @@ $blue: #008ce4;
 $dark-blue: #2428ba;
 $red: #e40030;
 $off-white: #efefef;
+$grey-color: #eef;
+
 
 $blue: #008ce4;
 $cursive-font: cursive, serif;
@@ -126,5 +128,5 @@ $alge: #79a8a9;
 $flower: #353866;
 
 .button-test {
-  @include button-testing(#806E28, #FF00EF);
+  @include button-testing($grass, $snow);
 }
