@@ -6,7 +6,7 @@ $blue: #008ce4;
 $dark-blue: #2428ba;
 $red: #e40030;
 $off-white: #efefef;
-$grey-color: #eef;
+$grey-color: #9c9c9c;
 
 
 $blue: #008ce4;
@@ -21,7 +21,7 @@ $cursive-font: cursive, serif;
 
 //test
 .nesting-example {
-	background-color: $off-white;
+	background-color: $grey-color;
 	padding: em(35);
 
   ul {
